@@ -271,7 +271,7 @@ def cek_ttl_cp(uid, pw):
 			print("\r\033[0;91m[JHALLA-CP] %s|%s|%s %s %s\033[0;91m"%(uid, pw, day, month, year))
 			cp.append("%s|%s"%(uid, pw))
 			open("CP/%s.txt"%(tanggal),"a").write(" + %s|%s|%s %s %s\n"%(uid, pw, day, month, year))
-	except KeyError, IOError:
+	except KeyError:
 		day = (" ")
 		month = (" ")
 		year = (" ")
