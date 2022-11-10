@@ -100,13 +100,7 @@ def menu():
 		exit(" ! no internet connection")
 	logo()
 	
-	  _______ _    _          _____  _  _______ 
- |__   __| |  | |   /\   |  __ \| |/ /_   _|
-    | |  | |__| |  /  \  | |__) | ' /  | |  
-    | |  |  __  | / /\ \ |  _  /|  <   | |  
-    | |  | |  | |/ ____ \| | \ \| . \ _| |_ 
-    |_|  |_|  |_/_/    \_\_|  \_\_|\_\_____|
-    
+	
 	print("\033[1;97m[1]\033[1;91m-⋄-\033[1;97m Clone kro bhaii jaldii public friends ko")
 	print("\033[1;97m[2]\033[1;91m-⋄-\033[1;97m Crack kro bro public followers ko")
 	print("\033[1;97m[3]\033[1;91m-⋄-\033[1;97m Multi cracking kro jani public Id ko\033[1;93m [ \033[1;95mPro \033[1;97m]")
